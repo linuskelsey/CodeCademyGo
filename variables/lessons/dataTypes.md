@@ -23,13 +23,13 @@
 
 - Declare and assign by: 
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightgray">var</code><code style="color : lightblue">\<name></code><code style="color : lightpink">\<type></code>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightgray">var</code><code style="color : lightblue">varName</code><code style="color : lightpink">varType</code>
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightblue">\<name></code><code style="color : lightgray">=</code><code style="color : lightsalmon">\<value></code>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightblue">varName</code><code style="color : lightgray">=</code><code style="color : lightsalmon">varValue</code>
 
     or,
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightgray">var</code><code style="color : lightblue">\<name></code><code style="color : lightpink">\<type></code><code style="color : lightgray">=</code><code style="color : lightsalmon">\<value></code>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code style="color : lightgray">var</code><code style="color : lightblue">varName</code><code style="color : lightpink">varType</code><code style="color : lightgray">=</code><code style="color : lightsalmon">varValue</code>
 
 - Even before assignment, variables hold default values. That might be the empty string ```""```, it might be ```0```, it might be ```false``` - sensible defaults
 
@@ -37,7 +37,7 @@
 
 - It is possible to declare without stating type, via type inferrence
 - The ```:=``` operator handles this for us, for example ```isAboveFiveFoot := true``` would declare and assign a variable ```isAboveFiveFoot``` of value ```true``` and inferred type ```bool```
-- We can also declare and assign a variable in the normal way, just ommitting the <code style="color : lightpink">\<type></code> tag from the above section
+- We can also declare and assign a variable in the normal way, just ommitting the <code style="color : lightpink">varType</code> tag from the above section
 - Floats created in this way are automatically ```float64```'s and ints are either ```int32```'s or ```int64```'s
 - The specific int created by type inferrence of integers depends on the computer architecture (be it 32- or 64-bit ROM)
 
