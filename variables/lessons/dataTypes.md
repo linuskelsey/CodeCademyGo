@@ -7,11 +7,12 @@
 - Again, as in other languages, the number at the end represents the number of bits used to store them (and ```bool``` is one bit)
 - Good practice to store a variable in the right data type so as to optimise performance - a variable which is true or false is much better stored in a ```bool``` than in a ```uint64```
 
-## Float types
+## Floats and Complex Numbers
 
 - 2 types: ```float32``` and ```float64``` (or ```double``` in some languages)
 - These are specified by the *IEEE 754 Standard for Floating-Point Arithmetic*, created in 1985 to make float implementations reliable and portable
 - See spec below for more details (quite technical, but overall ```float32``` means 6-9 significant figures, and ```float64``` is 15-17)
+- ```complex64``` and ```complex128``` are complex numbers with ```float32``` and ```float64``` real and imaginary parts, respectively
 
 ### References
 
