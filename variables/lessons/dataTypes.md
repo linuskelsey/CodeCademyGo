@@ -1,4 +1,4 @@
-# 1. Basic Numeric Types
+# 1. Numeric Types
 
 - 15 different numeric types in Go
 - 3 broad categories: ```int```, ```float```, ```complex```
