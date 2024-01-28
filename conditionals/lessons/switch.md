@@ -22,3 +22,7 @@ The function ```unhex``` is used to convert a ```byte```, or an ```int8``` in bi
 - Inside the ```switch``` block, ```{ ... }```, we have multiple ```case``` statements making certain comparison checks, and if we have a value following ```switch```, these checks will simply comprise of another value, and check if the two are equal
 - Once a condition is met, the code inside that ```case``` is executed, and the ```switch``` statement is exited
 - At the end of the switch statement we may also have a default statement, which runs if no other ```case``` is satisfied
+
+### References
+
+- [Golang switch docs](https://go.dev/doc/effective_go#switch)
